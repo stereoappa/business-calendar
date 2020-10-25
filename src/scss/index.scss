@@ -1,0 +1,33 @@
+@import "fonts";
+@import "variables";
+@import "header";
+@import "sidebar";
+@import "timetable";
+@import "modal";
+@import 'flatpickr.material';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app, .calendar{
+  height: 100%;
+  font-size: 14px;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+.calendar__workspace {
+  border-top: $border-color 1px solid;
+  display: flex;
+
+  height: calc(100% - #{$header-height});
+}
+
+
+
+
+
+
+
